@@ -10,6 +10,7 @@ body {
 	background-size: cover;
 	color: white;
 	background-repeat: no-repeat;
+	border-bottom: 1px solid darkgrey;
 }
 
 .header-top img {
@@ -72,4 +73,137 @@ button.custom-button:hover {
 
 .left-align {
 	margin-left: 25px;
+}
+
+.article-area {
+	background: white;
+}
+
+.medalion {
+	border-radius: 100%;
+	margin-top: 17px;
+}
+
+.margin-top {
+	margin-top: 25px;
+}
+
+.logerbutton {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.article {
+	border-bottom: 1px solid darkgrey;
+	min-height: 300px;
+	margin-top: 25px;
+}
+
+.article-last {
+	margin-top: 15px;
+}
+
+div.article-area > h1 {
+	font-weight: bold;
+}
+
+.background {
+	background-color: lightgray;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.round-tooltip {
+    position: relative;
+    height: 38px;
+    width: 75px;
+    padding: 0px;
+    background-color: #1a1a1a;
+    border-radius: 150px;
+    top: 1px;
+    left: 0px;
+    -webkit-transform: rotate(0deg) skew(0deg);
+    transform: rotate(0deg) skew(0deg);
+    color: white;
+    text-align: center;
+}
+
+.triangle-tooltip {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8.5px 0 8.5px 14.7px;
+	border-color: transparent transparent transparent #1a1a1a;
+	
+	/*Firefox*/
+	border-style: inset;
+	/*Better anti-aliasing rendering*/
+	-webkit-transform:rotate(360deg);
+	margin-left: 1px;
+	margin-top: -11px;
+}
+
+.news-tooltip {
+	margin-top: 25px;
+	margin-left: 35px;
+}
+
+.round-tooltip > p {
+	padding-top: 9px;
+}
+
+.fragment {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.footer {
+	background-color: #2c251a;
+}
+
+ul.footer-menu > li {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+
+div.footer img {
+	display: inline-block;
+	margin-left: 44%;
+	padding: 50px;
+	margin-right: 45%;
+}
+
+div.footer ul {
+	display: inline;
+	margin-left: 34%;
+	margin-right: 35%;
+}
+
+div.footer ul > li > a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+div.footer ul > li > a:hover {
+	background: darkgrey;
+	border-radius: 10px;
+}
+
+div.footer p {
+	color: #51493e;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 35px;
 }

@@ -152,6 +152,7 @@ div.article-area > h1 {
 .news-tooltip {
 	margin-top: 25px;
 	margin-left: 35px;
+	padding-top: 30px;
 }
 
 .round-tooltip > p {

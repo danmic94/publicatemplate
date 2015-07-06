@@ -1,0 +1,75 @@
+/*Main navigation tab*/
+body {
+	background-color: #dbdbdb;
+}
+
+.header {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-image: url('../img/header-bg.png');
+	background-size: cover;
+	color: white;
+	background-repeat: no-repeat;
+}
+
+.header-top img {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.header-bottom img{
+	margin-left: 22px;
+}
+
+.header-top ul {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 38px;
+	margin-bottom: 30px;
+}
+
+.header-bottom h1 {
+	margin-top: 70px;
+}
+
+.header-bottom h4 {
+	margin-top: 30px;
+}
+
+.header-top ul > li {
+	display: inline;
+	padding: 15px;
+}
+
+.header-top ul > li > a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+
+.header-top ul > li:hover {
+	background-color: darkgrey;
+	border-radius: 5px;
+}
+
+.custom-button {
+	margin-top: 45px;
+	padding: 10px;
+	border-radius: 50px;
+	background-color: transparent;
+	border:1px solid darkgrey;
+}
+
+.first {
+	margin-right: 15px;
+}
+
+button.custom-button:hover {
+	color: red;
+}
+
+.left-align {
+	margin-left: 25px;
+}
